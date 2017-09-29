@@ -12,9 +12,7 @@ import javax.persistence.OneToOne;
 @Entity
 public class Cart implements Serializable {
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	
 	@Id
@@ -54,7 +52,7 @@ public class Cart implements Serializable {
 		return "Cart [id=" + id + ", grandTotal=" + grandTotal + ", cartLines=" + cartLines + "]";
 	}
 	
-	// linking the cart with a user
+	
 	@OneToOne
 	private User user;
 	public User getUser() {
