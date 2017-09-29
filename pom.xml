@@ -24,7 +24,7 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-    <!-- SPRING -->
+    
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -55,14 +55,14 @@
 			<version>${spring.version}</version>
 		</dependency>		
 		
-		<!-- H2 Database -->
+		
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>1.4.195</version>
 		</dependency>
 		
-		<!-- Hibernate Dependency -->		
+			
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -70,7 +70,7 @@
 		</dependency>
 		
 		
-		<!-- Database Connection Pooling -->
+		
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-dbcp2</artifactId>
@@ -83,7 +83,7 @@
 			</exclusions>			
 		</dependency>
 				
-		<!-- Jackson -->
+		
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -97,7 +97,7 @@
 		</dependency>			
 
 
-		<!-- SLF4J Logging -->
+		
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
@@ -110,7 +110,7 @@
 			<version>1.7.24</version>
 		</dependency>
 		
-		<!-- Hibernate Validator -->
+		
 		<dependency>
 		    <groupId>org.hibernate</groupId>
 		    <artifactId>hibernate-validator</artifactId>
@@ -125,7 +125,7 @@
     
   </dependencies>
   <build>
-		<!-- Updated for the latest version of JAVA -->
+		
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
